@@ -1,0 +1,12 @@
+
+tasks:
+  # Frontend
+  - before: |
+      cd web
+    init: |
+      npm install
+    command: |
+      npm run start
+
+
+
