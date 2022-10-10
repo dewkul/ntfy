@@ -4,15 +4,24 @@ and the [ntfy Android app](https://github.com/binwiederhier/ntfy-android/release
 
 ## ntfy server v1.29.0 (UNRELEASED)
 
+**Features:**
+
+* Allow IP CIDRs in `visitor-request-limit-exempt-hosts` ([#423](https://github.com/binwiederhier/ntfy/issues/423), thanks to [@karmanyaahm](https://github.com/karmanyaahm))
+
 **Bug fixes + maintenance:**
 
 * Subscriptions can now have a display name ([#370](https://github.com/binwiederhier/ntfy/issues/370), thanks to [@tfheen](https://github.com/tfheen) for reporting)
 * Bump Go version to Go 18.x ([#422](https://github.com/binwiederhier/ntfy/issues/422))
+* Web: Strip trailing slash when subscribing ([#428](https://github.com/binwiederhier/ntfy/issues/428), thanks to [@raining1123](https://github.com/raining1123) for reporting, and [@wunter8](https://github.com/wunter8) for fixing)
+* Allow empty passwords in `client.yml` ([#374](https://github.com/binwiederhier/ntfy/issues/374), thanks to [@cyqsimon](https://github.com/cyqsimon) for reporting, and [@wunter8](https://github.com/wunter8) for fixing)
+* `ntfy pub` will now use default username and password from `client.yml` ([#431](https://github.com/binwiederhier/ntfy/issues/431), thanks to [@wunter8](https://github.com/wunter8) for fixing)
 
 **Documentation:**
 
 * Updated developer docs, bump nodejs and go version ([#414](https://github.com/binwiederhier/ntfy/issues/414), thanks to [@YJSoft](https://github.com/YJSoft) for reporting)
+* Officially document `?auth=..` query parameter ([#433](https://github.com/binwiederhier/ntfy/pull/433), thanks to [@wunter8](https://github.com/wunter8))
 * Added Rundeck example ([#427](https://github.com/binwiederhier/ntfy/pull/427), thanks to [@demogorgonz](https://github.com/demogorgonz))
+* Fix Debian installation instructions ([#237](https://github.com/binwiederhier/ntfy/issues/237), thanks to [@Joeharrison94](https://github.com/Joeharrison94) for reporting)
 
 **Additional translations:**
 

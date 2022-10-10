@@ -23,6 +23,7 @@ messages until I finally finish implementing end-to-end encryption.
 - [borgmatic](https://torsion.org/borgmatic/docs/how-to/monitor-your-backups/#third-party-monitoring-services) ⭐ - configuration-driven backup software for servers and workstations
 - [Radarr](https://radarr.video/) ⭐ - Movie collection manager for Usenet and BitTorrent users
 - [Sonarr](https://sonarr.tv/) ⭐ - PVR for Usenet and BitTorrent users
+- [Gatus](https://gatus.io/) ⭐ - Automated service health dashboard
 - [FlexGet](https://flexget.com/Plugins/Notifiers/ntfysh) ⭐ - Multipurpose automation tool for all of your media
 - [Platypush](https://docs.platypush.tech/platypush/plugins/ntfy.html) - Automation platform aimed to run on any device that can run Python
 
@@ -82,6 +83,7 @@ messages until I finally finish implementing end-to-end encryption.
 
 ## Blog + forum posts
 
+- [Ntfy, le service de notifications qu’il vous faut](https://www.cachem.fr/ntfy-le-service-de-notifications-quil-vous-faut/) - 9/2022
 - [NAS Synology et notifications avec ntfy](https://www.cachem.fr/synology-notifications-ntfy/) - 9/2022 
 - [Self hosted Mobile Push Notifications using NTFY | Thejesh GN](https://thejeshgn.com/2022/08/23/self-hosted-mobile-push-notifications-using-ntfy/) - 8/2022
 - [Fedora Magazine | 4 cool new projects to try in Copr](https://fedoramagazine.org/4-cool-new-projects-to-try-in-copr-for-august-2022/) - 8/2022
